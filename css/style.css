@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600;700;800;900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	color: #898989;
+}
+
+header{
+	background-color: #fff;
+}
+
+#hero-title {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url("../img/Services-Title-Image.jpg");
+	padding: 200px 0px;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFF;
+	font-weight: 800;
+}
+
+#icons {
+	color: #898989;
+	text-align: center;
+	padding: 100px 0px;
+}
+
+#icons i{
+	font-size: 128px;
+	color: #e0e0e0;
+	padding-bottom: 30px;
+}
+
+#icons h3 {
+	color: #53c3c9;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+.title {
+	font-size: 20px;
+	color: #282d33;
+	padding-bottom: 20px;
+}
+
+
+#info {
+	padding: 200px 0px;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+#info h2 {
+	padding: 20px 0px;
+}
+
+#info img {
+	padding: 30px 0;
+}
+
+.bold {
+	font-weight: 700;
+	color: #282d33;
+}
+
+
+#features h2 {
+	padding: 20px 0px;
+}
+
+.card1{
+	background-color: #3d4248;
+	padding: 150px 100px;
+	background-size: cover;
+	color: #FFF;
+}
+
+.card2 {
+	background-color: #d8d8d8;
+	padding: 150px 100px;
+	background-size: cover;
+	color: #FFF;
+}
+
+.card3 {
+	background-color: #f0f0f0;
+	padding: 150px 100px;
+	background-size: cover;
+}
+
+.btn-light {
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+
+.btn-dark{
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding-top: 100px;
+	text-align: left;
+	font-size: 13px;
+}
+
+footer h1 {
+	color: #FFF;
+}
+footer h2 {
+	color: #FFF;
+	font-size: 20px;
+}
+
+footer li a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #3d4248;
+	display: block;
+	text-align: center;
+	border-radius: 100%;
+	color: #FFF;
+	font-size: 16px;
+}
+
+footer li a:hover {
+	color: #282d33;
+}
+
+.final {
+	background-color: #3d4248;
+	text-align: center;
+	font-size: 14px;
+	color: #FFF;
+	padding: 30px;
+}
+
+.list-inline {
+	padding: 40px 0px;
+}
+
